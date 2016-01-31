@@ -1,17 +1,21 @@
 /// <reference path="_referance.ts" />
 import express = require('express');
+import path = require('path');
 
 var app:express.Express = express();
 
 var port:number = process.env.port || 3000;
 
 app.get('/',function(req:express.Request, res:express.Response, next:any){
-   res.send('hello express!') 
+  // res.send('hello express!') 
+  //res.sendfile('./Public/index.html')
+  res.sendfile(path.join(__dirname,"Public","index.html"));
 });
 
 //info page
 app.get('/info',function(req:express.Request, res:express.Response){
-   res.send('custom info page...') 
+   //res.send('custom info page...') 
+   res.sendfile(path.join(__dirname,"Public","info.html"));
 });
 
 
