@@ -1,0 +1,31 @@
+[ERR!] cwd  : c:\Users\Mansi\Desktop\portfolio
+[ERR!] os   : Windows_NT 10.0.10586
+[ERR!] argv : "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Mansi\\AppData\\Roaming\\npm\\node_modules\\tsd\\build\\cli.js" "init"
+[ERR!] node : v5.4.1
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: cannot overwrite file c:\Users\Mansi\Desktop\portfolio\tsd.json
+[ERR!] CODE : undefined
+[ERR!] cannot overwrite file c:\Users\Mansi\Desktop\portfolio\tsd.json
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+VError: cannot overwrite file c:\Users\Mansi\Desktop\portfolio\tsd.json
+    at C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\build\tsd\logic\ConfigIO.js:22:27
+    at tryCatch1 (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\util.js:63:19)
+    at Promise$_callHandler [as _callHandler] (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:695:13)
+    at Promise$_settlePromiseFromHandler [as _settlePromiseFromHandler] (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:711:18)
+    at Promise$_settlePromiseAt [as _settlePromiseAt] (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:868:14)
+    at Promise$_settlePromises [as _settlePromises] (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:1006:14)
+    at Async$_consumeFunctionBuffer [as _consumeFunctionBuffer] (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:74:12)
+    at Async$consumeFunctionBuffer (C:\Users\Mansi\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:37:14)
+    at nextTickCallbackWith0Args (node.js:452:9)
+    at process._tickCallback (node.js:381:13)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{"node/node.d.ts":{"commit":"5d0f2126c8dac8fce0ff020218aea06607213b0d"},"express/express.d.ts":{"commit":"5d0f2126c8dac8fce0ff020218aea06607213b0d"},"serve-static/serve-static.d.ts":{"commit":"5d0f2126c8dac8fce0ff020218aea06607213b0d"},"mime/mime.d.ts":{"commit":"5d0f2126c8dac8fce0ff020218aea06607213b0d"}}}
+
+[ERR!] .tsdrc could not be retrieved
+
+[ERR!] Please include the following file with any support request:
+    c:\Users\Mansi\Desktop\portfolio\tsd-debug.log
+
